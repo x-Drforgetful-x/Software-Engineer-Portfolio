@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caleb Lawrence | Software Engineer Portfolio</title>
+  <meta name="description" content="Creative tech portfolio for Caleb Lawrence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="cursor-glow"></div>
+
+<nav class="navbar navbar-expand-lg fixed-top glass-nav">
+  <div class="container">
+    <a class="navbar-brand fw-bold brand-text" href="#home">⚡ Caleb Lawrence</a>
+    <button class="navbar-toggler text-white border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="#models">3D</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">What I Build</a></li>
+        <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="btn btn-neon ms-lg-2" href="#work">🚀 View Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home" class="hero-section d-flex align-items-center">
+  <div class="floating-orb orb-1"></div>
+  <div class="floating-orb orb-2"></div>
+  <div class="floating-grid"></div>
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 reveal">
+        <span class="eyebrow">💻 HyperionDev Software Engineering Student • Builder • Problem Solver</span>
+        <h1 class="hero-title mt-3">I build <span class="gradient-text">systems, websites, apps,</span> and digital experiences that solve real business problems.</h1>
+        <p class="hero-copy mt-4">I’m Caleb Lawrence — a practical builder with a creative tech vibe. My work blends software engineering, web development, system planning, branding, content direction, and business thinking. I enjoy turning ideas into real products, from task management systems and app structures to startup websites, business workflows, digital campaigns, and standout brand experiences.</p>
+        <div class="hero-badges mt-4">
+          <span>⚙️ Full-Stack Thinking</span><span>🧠 System Planning</span><span>🎨 Creative Tech Style</span><span>📈 Business-Driven Builds</span>
+        </div>
+        <div class="hero-actions mt-4 d-flex flex-wrap gap-3">
+          <a href="#work" class="btn btn-neon btn-lg">🔥 Explore My Work</a>
+          <a href="Caleb-Lawrence-CV.pdf" class="btn btn-outline-light btn-lg" target="_blank">📄 View CV</a>
+          <a href="https://x-drforgetful-x.github.io/Software-Engineer-Portfolio/" class="btn btn-outline-light btn-lg" target="_blank">🐙 GitHub Portfolio</a>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal-delay">
+        <div class="hero-3d-wrap tilt-card">
+          <div class="hero-3d-head"><span class="live-dot"></span><span>Interactive 3D Hero Model</span></div>
+          <div id="hero3d"></div>
+          <div class="hero-3d-overlay">
+            <div class="overlay-chip">🚀 Interactive 3D</div>
+            <div class="overlay-chip">⚡ Three.js Powered</div>
+            <div class="overlay-chip">🧊 Real-time Motion</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-kicker">👋 About Me</span>
+      <h2>I build with both technical structure and business purpose in mind.</h2>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-lg-7 reveal">
+        <div class="glass-card p-4 p-lg-5">
+          <p class="lead mb-3">My portfolio is built around <strong>real tasks</strong>, <strong>real systems</strong>, and <strong>real business ideas</strong>.</p>
+          <p>Over time I’ve worked on task manager applications, a Sticky Notes system design, a capstone-style food business system, a fast food platform plan, a printing and branding company website, a personal portfolio website, and digital business builds for brands like Street Union, Rugs to Rugs, LetsMove, Casa Kasi, and Red Sofa.</p>
+          <p>I enjoy breaking projects down step by step, planning the structure properly, and then building solutions that are clean, useful, and easy to understand. My work shows how I think through systems, user flow, branding, business value, and the final experience.</p>
+          <p class="mb-0">I’m especially strong when a project needs both <strong>creative direction</strong> and <strong>technical execution</strong>. ⚡</p>
+        </div>
+      </div>
+      <div class="col-lg-5 reveal-delay">
+        <div class="stats-card glass-card p-4 h-100">
+          <div class="stat-row"><div><h3>🧠</h3><p>System thinking</p></div><div><h3>🚀</h3><p>Build execution</p></div></div>
+          <div class="stat-row"><div><h3>🎯</h3><p>User-focused design</p></div><div><h3>💼</h3><p>Business-first solutions</p></div></div>
+          <div class="mini-note"><span>Currently growing in:</span> <strong>Full-stack development, stronger GitHub projects, better systems, and standout product presentation.</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section-pad section-dark">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-kicker">🛠 Skills & Tools</span>
+      <h2>The software, tools, and platforms behind the work I create.</h2>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-lg-6 reveal">
+        <div class="glass-card p-4 h-100">
+          <h3 class="card-title mb-4">Coding Stack</h3>
+          <div class="icon-grid">
+            <div class="icon-item"><i class="bi bi-filetype-py"></i><span>Python</span></div>
+            <div class="icon-item"><i class="bi bi-window-stack"></i><span>Django</span></div>
+            <div class="icon-item"><i class="bi bi-filetype-html"></i><span>HTML5</span></div>
+            <div class="icon-item"><i class="bi bi-filetype-css"></i><span>CSS3</span></div>
+            <div class="icon-item"><i class="bi bi-filetype-js"></i><span>JavaScript</span></div>
+            <div class="icon-item"><i class="bi bi-bootstrap-fill"></i><span>Bootstrap</span></div>
+            <div class="icon-item"><i class="bi bi-database-fill"></i><span>SQL / SQLite</span></div>
+            <div class="icon-item"><i class="bi bi-git"></i><span>Git</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 reveal-delay">
+        <div class="glass-card p-4 h-100">
+          <h3 class="card-title mb-4">Build Tools & Creative Platforms</h3>
+          <div class="icon-grid">
+            <div class="icon-item"><i class="bi bi-github"></i><span>GitHub</span></div>
+            <div class="icon-item"><i class="bi bi-code-square"></i><span>VS Code</span></div>
+            <div class="icon-item"><i class="bi bi-vector-pen"></i><span>Figma</span></div>
+            <div class="icon-item"><i class="bi bi-palette-fill"></i><span>Canva / Brand Design</span></div>
+            <div class="icon-item"><i class="bi bi-diagram-3-fill"></i><span>System Design</span></div>
+            <div class="icon-item"><i class="bi bi-kanban-fill"></i><span>Workflow Planning</span></div>
+            <div class="icon-item"><i class="bi bi-camera-video-fill"></i><span>Video / Content Production</span></div>
+            <div class="icon-item"><i class="bi bi-box-fill"></i><span>3D Presentation</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skill-tags reveal mt-4">
+      <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>GitHub</span><span>VS Code</span><span>Figma</span><span>UI/UX</span><span>System Design</span><span>Branding</span><span>Business Systems</span><span>Product Thinking</span><span>Three.js</span>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="section-pad">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-kicker">🔥 Featured Work</span>
+      <h2>Work that shows how I think and build.</h2>
+      <p class="section-copy">These cards are written around the work you’ve been building over time. Replace the placeholder project buttons with your real GitHub repos, demos, and case studies when ready.</p>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-xl-4 reveal"><article class="project-card tilt-card"><div class="project-top"><span class="project-emoji">✅</span><span class="project-type">Software Project</span></div><h3><a href="#">Task Manager Application</a></h3><p class="project-subtitle"><a href="#">🧠 Structured backend thinking and clean CRUD development</a></p><p>Built as a practical software engineering task with clear logic, neat structure, clean user flow, and a polished submission approach.</p><div class="project-tags"><span>Python</span><span>Django</span><span>CRUD</span><span>Testing</span></div><div class="project-links"><a href="#" class="btn btn-sm btn-neon">💻 Code</a><a href="#" class="btn btn-sm btn-outline-light">🌐 Demo</a><a href="#" class="btn btn-sm btn-outline-info">📘 README</a></div></article></div>
+      <div class="col-md-6 col-xl-4 reveal-delay"><article class="project-card tilt-card"><div class="project-top"><span class="project-emoji">🗒️</span><span class="project-type">System Design</span></div><h3><a href="#">Sticky Notes App System Design</a></h3><p class="project-subtitle"><a href="#">🧠 Planning architecture before writing code</a></p><p>Created full system diagrams, Django structure planning, and a student-friendly technical layout to guide development properly from the start.</p><div class="project-tags"><span>Django</span><span>Architecture</span><span>Diagrams</span><span>Planning</span></div><div class="project-links"><a href="#" class="btn btn-sm btn-neon">💻 Code</a><a href="#" class="btn btn-sm btn-outline-light">🖼 Diagrams</a><a href="#" class="btn btn-sm btn-outline-info">📘 README</a></div></article></div>
+      <div class="col-md-6 col-xl-4 reveal"><article class="project-card tilt-card"><div class="project-top"><span class="project-emoji">🍔</span><span class="project-type">Capstone / Business System</span></div><h3><a href="#">Food Business System</a></h3><p class="project-subtitle"><a href="#">🧠 Solving real business flow problems with software structure</a></p><p>Planned around food orders, operations, permissions, workflows, and models to create a stronger digital system for a real business environment.</p><div class="project-tags"><span>Models</span><span>Permissions</span><span>Workflow</span><span>Backend</span></div><div class="project-links"><a href="#" class="btn btn-sm btn-neon">💻 Code</a><a href="#" class="btn btn-sm btn-outline-light">🌐 Demo</a><a href="#" class="btn btn-sm btn-outline-info">📘 README</a></div></article></div>
+      <div class="col-md-6 col-xl-4 reveal-delay"><article class="project-card tilt-card"><div class="project-top"><span class="project-emoji">🌮</span><span class="project-type">Brand Website</span></div><h3><a href="#">Street Union Digital Build</a></h3><p class="project-subtitle"><a href="#">🧠 Mixing website building, branding, packaging, and customer experience</a></p><p>A wider digital brand build covering website ideas, social content, packaging concepts, invoice designs, product visuals, and business presentation.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>Branding</span><span>Digital Strategy</span></div><div class="project-links"><a href="#" class="btn btn-sm btn-neon">💻 Code</a><a href="#" class="btn btn-sm btn-outline-light">🌐 Live</a><a href="#" class="btn btn-sm btn-outline-info">📘 README</a></div></article></div>
+      <div class="col-md-6 col-xl-4 reveal"><article class="project-card tilt-card"><div class="project-top"><span class="project-emoji">🖨️</span><span class="project-type">Business Website</span></div><h3><a href="#">Printing & Branding Company Website</a></h3><p class="project-subtitle"><a href="#">🧠 Building product-focused websites with clean navigation and sales flow</a></p><p>Designed around service categories, product presentation, mockup direction, cart thinking, and a cleaner path for customers to browse and buy.</p><div class="project-tags"><span>Bootstrap</span><span>Catalog</span><span>E-commerce</span><span>UI</span></div><div class="project-links"><a href="#" class="btn btn-sm btn-neon">💻 Code</a><a href="#" class="btn btn-sm btn-outline-light">🌐 Live</a><a href="#" class="btn btn-sm btn-outline-info">📘 README</a></div></article></div>
+      <div class="col-md-6 col-xl-4 reveal-delay"><article class="project-card tilt-card"><div class="project-top"><span class="project-emoji">📱</span><span class="project-type">Platform Planning</span></div><h3><a href="#">Fast Food App Planning</a></h3><p class="project-subtitle"><a href="#">🧠 Platform thinking across customer, store, and admin flows</a></p><p>Mapped out the early structure for a fast food platform with customer ordering, store dashboards, and future delivery-driver expansion.</p><div class="project-tags"><span>Product Planning</span><span>UX Flow</span><span>Admin</span><span>Logic</span></div><div class="project-links"><a href="#" class="btn btn-sm btn-neon">💻 Code</a><a href="#" class="btn btn-sm btn-outline-light">🌐 Demo</a><a href="#" class="btn btn-sm btn-outline-info">📘 README</a></div></article></div>
+    </div>
+  </div>
+</section>
+
+<section id="models" class="section-pad section-dark">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="section-kicker">🧊 3D Models</span>
+      <h2>Interactive 3D elements to give the portfolio a stronger tech feel.</h2>
+      <p class="section-copy">This version includes multiple real-time 3D scenes: a rotating crystal core, a glowing cube stack, and an orbital ring system.</p>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-lg-4 reveal"><div class="model-card glass-card"><div class="model-head">Crystal Core</div><div class="model-canvas" id="modelA"></div></div></div>
+      <div class="col-lg-4 reveal-delay"><div class="model-card glass-card"><div class="model-head">Cube Stack</div><div class="model-canvas" id="modelB"></div></div></div>
+      <div class="col-lg-4 reveal"><div class="model-card glass-card"><div class="model-head">Orbital Ring</div><div class="model-canvas" id="modelC"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section-pad">
+  <div class="container">
+    <div class="section-heading reveal"><span class="section-kicker">⚡ What I Build</span><h2>The kind of work I enjoy creating.</h2></div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-4 reveal"><div class="glass-card p-4 h-100 service-card"><h3>💻 Software Projects</h3><p>Task managers, Django structures, backend workflows, models, CRUD systems, and student-ready software builds.</p></div></div>
+      <div class="col-md-4 reveal-delay"><div class="glass-card p-4 h-100 service-card"><h3>🌐 Business Websites</h3><p>Brand-focused websites, category layouts, customer journeys, portfolios, startup sites, and digital storefront thinking.</p></div></div>
+      <div class="col-md-4 reveal"><div class="glass-card p-4 h-100 service-card"><h3>🧠 System Planning</h3><p>App structure planning, diagrams, permissions, models, workflow logic, and breaking complex ideas into clear technical builds.</p></div></div>
+      <div class="col-md-4 reveal-delay"><div class="glass-card p-4 h-100 service-card"><h3>🎨 Brand + Digital Direction</h3><p>Brand bibles, rollout plans, packaging ideas, content direction, social visuals, and cleaner design systems for businesses.</p></div></div>
+      <div class="col-md-4 reveal"><div class="glass-card p-4 h-100 service-card"><h3>📱 Platform Concepts</h3><p>App planning across customer, admin, and business flows for food, retail, and service-driven digital products.</p></div></div>
+      <div class="col-md-4 reveal-delay"><div class="glass-card p-4 h-100 service-card"><h3>🚀 Portfolio Presentation</h3><p>GitHub portfolios, project READMEs, personal branding, and modern web layouts that help work stand out online.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="section-pad section-dark">
+  <div class="container">
+    <div class="section-heading reveal"><span class="section-kicker">🧭 My Process</span><h2>How I move from idea to execution.</h2></div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-3 reveal"><div class="process-card glass-card p-4 h-100"><h3>01</h3><h4>Understand</h4><p>I break the task down, understand the real goal, and figure out what will make the final result strong.</p></div></div>
+      <div class="col-md-3 reveal-delay"><div class="process-card glass-card p-4 h-100"><h3>02</h3><h4>Plan</h4><p>I map the structure, features, user flow, and visuals so the build has direction before I start.</p></div></div>
+      <div class="col-md-3 reveal"><div class="process-card glass-card p-4 h-100"><h3>03</h3><h4>Build</h4><p>I create practical solutions that solve the task properly, look good, and make sense for real users.</p></div></div>
+      <div class="col-md-3 reveal-delay"><div class="process-card glass-card p-4 h-100"><h3>04</h3><h4>Improve</h4><p>I refine presentation, structure, testing, user experience, and branding so the final result stands out.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="contact-box glass-card p-4 p-lg-5 reveal">
+      <span class="section-kicker">📬 Contact</span>
+      <h2 class="mt-2">Let’s build something strong.</h2>
+      <p>Looking for a junior developer with creative energy, structure, and a practical mindset? I’m available for opportunities, collaborations, and freelance-style digital builds.</p>
+      <div class="contact-grid mt-4">
+        <a href="mailto:c.m.lawrence00@gmail.com" class="contact-item"><i class="bi bi-envelope-fill"></i><div><strong>Email</strong><span>c.m.lawrence00@gmail.com</span></div></a>
+        <a href="tel:+27628853030" class="contact-item"><i class="bi bi-telephone-fill"></i><div><strong>Phone</strong><span>062 885 3030</span></div></a>
+        <a href="https://www.linkedin.com/in/caleb-lawrence-2b8a3b321/" target="_blank" class="contact-item"><i class="bi bi-linkedin"></i><div><strong>LinkedIn</strong><span>caleb-lawrence-2b8a3b321</span></div></a>
+        <a href="https://x-drforgetful-x.github.io/Software-Engineer-Portfolio/" target="_blank" class="contact-item"><i class="bi bi-github"></i><div><strong>GitHub Portfolio</strong><span>x-drforgetful-x.github.io</span></div></a>
+        <a href="Caleb-Lawrence-CV.pdf" target="_blank" class="contact-item wide"><i class="bi bi-file-earmark-person-fill"></i><div><strong>CV</strong><span>Open / Download CV</span></div></a>
+      </div>
+      <div class="contact-links d-flex flex-wrap gap-3 mt-4">
+        <a href="mailto:c.m.lawrence00@gmail.com" class="btn btn-neon">📧 Email Me</a>
+        <a href="https://www.linkedin.com/in/caleb-lawrence-2b8a3b321/" target="_blank" class="btn btn-outline-light">💼 LinkedIn</a>
+        <a href="https://x-drforgetful-x.github.io/Software-Engineer-Portfolio/" target="_blank" class="btn btn-outline-light">🐙 GitHub Portfolio</a>
+        <a href="Caleb-Lawrence-CV.pdf" target="_blank" class="btn btn-outline-light">📄 View CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-4 text-center">
+  <div class="container"><p class="mb-0">Built by Caleb Lawrence ⚡ | Creative tech energy + practical problem solving.</p></div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
